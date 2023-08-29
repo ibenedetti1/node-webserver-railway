@@ -15,21 +15,21 @@ app.use(express.static('public'));
 
 app.get('/', function (req, res) {
     res.render('home', {
-        nombre: 'Fernando Herrera',
+        nombre: 'iBenedetti1',
         titulo: 'Curso de Node '
     });
 });
 
 app.get('/generic', function (req, res) {
     res.render('generic', {
-        nombre: 'Fernando Herrera',
+        nombre: 'iBenedetti1',
         titulo: 'Curso de Node '
     });
 });
 
 app.get('/elements', function (req, res) {
     res.render('elements', {
-        nombre: 'Fernando Herrera',
+        nombre: 'iBenedetti1',
         titulo: 'Curso de Node '
     });
 });
